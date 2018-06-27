@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        YO
+        Product Uploader
         <div className="uploader">
           <ProductUpload />
         </div>
