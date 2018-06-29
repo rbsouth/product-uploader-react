@@ -73,7 +73,7 @@ class ProductUpload extends React.Component {
               <input 
               type="text"
               value={this.state.value} 
-              onChange={this.handleChange} />
+              onChange={(e)=>this.handleChange(e)} />
             </label>
             <br />
             <label>
@@ -81,14 +81,14 @@ class ProductUpload extends React.Component {
               <input 
               type="text"
               value={this.state.value}
-              onChange={this.handleChange} />
+              onChange={(e)=>this.handleChange(e)} />
             </label>
             <label>
               Number of Units:
               <input 
               type="text"
               value={this.state.value}
-              onChange={this.handleChange} />
+              onChange={(e)=>this.handleChange(e)} />
             </label>
             <br />
             <label>
